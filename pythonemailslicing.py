@@ -6,9 +6,14 @@ if(re.fullmatch(regex, s)):
         print("Valid Email")
 else:
     print("Invalid Email")
+print(">Press 1 to Print Username: ")
+print(">Press 2 to Print Domain name: ")
+print(">Press 3 to Print Both: ")
+print(">Press 0 to Exit: ")      
 while True:
         b = s.find('@')
-        a = input("For domain name press 1,for username press 2,press 3 to print both and to cancel press 0: ")
+        
+        a = input("Enter Your Input:  ")
         c = s[b+1:len(s)+1].upper()
 
 
